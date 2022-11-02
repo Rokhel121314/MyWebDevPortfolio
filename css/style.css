@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+/* -----------------NAV BAR ------- */
+.navigation-bar {
+    height:10vh;
+    font-family: 'Happy Monkey', cursive;
+}
+.iconJerick {
+    height: 7vh;
+}
+
+
+
+
+
+/* -----------------LANDING PAGE ------- */
+.landing-page {
+    min-height: 100vh;
+    font-family: 'Happy Monkey', cursive;
+}
+.spacer {
+    height:9vh;
+}
+/* .content {
+    height:65vh;
+}
+.qoute {
+    height:16vh;
+} */
+.profile-img img {
+    width:400px;
+}
+.intro-greetings span {
+    font-size: 42px;
+}
+.qoute span {
+    font-size: 18px;
+}
+
+
+
+/* -----------------ABOUT PAGE ------- */
+.about-page {
+    min-height:100vh;
+    font-family: 'Happy Monkey', cursive;
+}
+.header {
+    height:10vh;
+    font-size:40px;
+}
+.about-content {
+    height:auto;
+}
+.image {
+    width:200px;
+    height:200px;
+}
+.image img {
+    width:200px;
+}
+.desc-just {
+    text-align:justify;
+}
+.subheader {
+    font-size:25px;
+}
+.fa-shake {
+    animation-duration: 6s;
+}
+
+
+/* -----------------SERVICES PAGE ------- */
+.services-page {
+    min-height: 100vh;
+    font-family: 'Happy Monkey', cursive;
+}
+
+
+/* -----------------PROJECTS PAGE------- */
+.projects-page {
+    min-height: 100vh;
+    font-family: 'Happy Monkey', cursive;
+}
+
+.outerFrame {
+    width:260px;
+    height:380px;
+    border:5px solid #ffc107;
+    border-radius:15px;
+}
+.projTitle {
+    font-size:22px;
+    font-weight: bold;
+}
+.outerFrame:hover {
+    box-shadow: rgba(255, 193, 7, 0.25) 0px 50px 100px -20px, rgba(255, 193, 7, 0.3) 0px 30px 60px -30px, rgba(2255, 193, 7, 0.35) 0px -2px 6px 0px inset;
+    cursor: pointer;
+}
+.pcard, .fa-fade {
+    animation-duration:6s;
+}
+.fa-fade:hover {
+    animation:none;
+}
+
+
+/* -----------------CONTACTSPAGE------- */
+.contacts-page {
+    min-height: 85vh;
+    font-family: 'Happy Monkey', cursive;
+}
+.googleMap img {
+    width: 70%;
+}
+.inputBar {
+    border-radius: 5px;
+    border-color:#ffc107;
+    font-size: 12px;
+    height:35px;
+}
+.commentBox {
+    border-radius: 5px !important;
+    border-color: #ffc107 !important;
+    font-size: 12px !important;
+    height:90px;
+}
+/* .contactDetails {
+    height:60vh;
+}
+.commentSection {
+    height:60vh;
+} */
+
+/* -----------------FOOTER SECTION------- */
+
+.footer {
+    height: auto;
+}
+.navBottom {
+    height: 15vh;
+}
+.horizontalLine {
+    border-top: 1px solid #ffc107;
+}
+.footerText {
+    font-size:12px;
+}
